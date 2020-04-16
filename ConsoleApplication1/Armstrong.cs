@@ -1,22 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
     class Armstrong
     {
         int n, sum = 0, temp, r;
-        public int arm(int n)
+        public int arm(int num)
         {
-            temp = n;
-            while(n>0)
+            temp = num;
+            while(num>0)
             {
-                r = n % 10;
+                r = num % 10;
                 sum = sum + (r * r * r);
-                n = n / 10;
+                num = num / 10;
             }
             if(temp==sum)
             {
