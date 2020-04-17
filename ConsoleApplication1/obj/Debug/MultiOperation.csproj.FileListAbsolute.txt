@@ -1,3 +1,6 @@
 G:\ShivaniProgramming\MutiOperationConsoleProject\MultiOperation\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
 G:\ShivaniProgramming\MutiOperationConsoleProject\MultiOperation\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 G:\ShivaniProgramming\MutiOperationConsoleProject\MultiOperation\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+G:\ShivaniProgramming\MutiOperationConsoleProject\MultiOperation\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+G:\ShivaniProgramming\MutiOperationConsoleProject\MultiOperation\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+G:\ShivaniProgramming\MutiOperationConsoleProject\MultiOperation\ConsoleApplication1\obj\Debug\MultiOperation.csprojResolveAssemblyReference.cache

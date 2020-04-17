@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApplication1
 {
@@ -8,7 +9,9 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
-            PrintAllOperations();
+            OperationsList operationsList = new OperationsList();
+            operationsList.PrintOperations();
+
             int choice = Convert.ToInt32(Console.ReadLine());
             SelectChoice(choice);
 
@@ -21,30 +24,6 @@ namespace ConsoleApplication1
             }
         }
 
-        static void PrintAllOperations()
-        {
-            Console.Write("please select operation : \n");
-            Console.WriteLine("1.Age Operation");
-            Console.WriteLine("2.Addition Operation");
-            Console.WriteLine("3.Multiplication Operation");
-            Console.WriteLine("4.Factorial Operation");
-            Console.WriteLine("5.Palindrome operation");
-            Console.WriteLine("6.Sum of digit operation");
-            Console.WriteLine("7. Armstrong Operation");
-            Console.WriteLine("8.Tables");
-            Console.WriteLine("9.Multiplication outside print");
-            Console.WriteLine("10.Division operation");
-            Console.WriteLine("11.Reverse Number Operation");
-            Console.WriteLine("12.Swap Two variables using temp variable");
-            Console.WriteLine("13.Swap Two variables without using temp variable");
-            Console.WriteLine("14.Find number is prime or not");
-            Console.WriteLine("12.Count Number Of Character in String");
-            Console.WriteLine("13.Check the given string is substring or not");
-            Console.WriteLine("14.Create list of string,Insert data in it and retrieve data");
-            Console.WriteLine("15.Create array of integer,Insert data in it and retrieve data");
-            Console.WriteLine("16.Get two list of integer and find which no is not present in second list");
-            Console.WriteLine("17.How to find largest number,smallest number and second largest number, second smallest number in list");
-        }
         static void SelectChoice( int choice)
         {
             switch (choice)
@@ -217,6 +196,40 @@ namespace ConsoleApplication1
                         Console.WriteLine("Enter a number");
                         var number =int.Parse( Console.ReadLine());
                          primenumber.prime(number);
+                        break;
+                    }
+
+                case 15:
+                    {
+                        Console.Write("String count program started");
+                        StringCountring stringcounting = new StringCountring();
+                        Console.Write("Enter a string : ");
+                        var str = Console.ReadLine();
+                        var count =(stringcounting.countstring(str));
+                        Console.Write("Counting of string is " + count);
+                        break;
+                    }
+
+                case 16:
+                    {
+                        Console.Write("Substring program started");
+                        Substring sunstring = new Substring();
+                        Console.Write("enter a string \n");
+                        var givenString = Console.ReadLine();
+                        Console.Write("enter word in string");
+                        var subString = Console.ReadLine();
+                        sunstring.findOutSubString(givenString, subString);
+                        break;
+                    }
+                case 17:
+                    {
+                        Console.Write("List of string program started");
+                        
+                        ListOfString liststring = new ListOfString();
+
+                        Console.WriteLine("\n How many iteam");
+                        var howItem =int.Parse (Console.ReadLine());
+                        
                         break;
                     }
 
