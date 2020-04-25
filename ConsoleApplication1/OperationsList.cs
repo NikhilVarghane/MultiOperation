@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace MultiOperations
 {
     class OperationsList
     {
@@ -27,10 +27,13 @@ namespace ConsoleApplication1
             Console.WriteLine("14.Find number is prime or not");
             Console.WriteLine("15.Count Number Of Character in String");
             Console.WriteLine("16.Check the given string is substring or not");
-            Console.WriteLine("17.Create list of string,Insert data in it and retrieve data");
-            Console.WriteLine("18.Create array of integer,Insert data in it and retrieve data");
-            Console.WriteLine("19.Get two list of integer and find which no is not present in second list");
-            Console.WriteLine("20.How to find largest number,smallest number and second largest number, second smallest number in list");
+            Console.WriteLine("17.Create list of string,Insert data in it and delete any item/Delete any item at index position and retrieve/show data");
+            Console.WriteLine("18.Display pyramid design having 5 vertical* and 10 horizontal*");
+            Console.WriteLine("19.Display square design having 5 vertical* and 10 horizontal*");
+            Console.WriteLine("20.Create array of integer,Insert data in it and retrieve data");
+            Console.WriteLine("21.Get two list of integer and find which no is not present in second list");
+            Console.WriteLine("22.How to find largest number,smallest number and second largest number, second smallest number in list");
+            Console.WriteLine("23.find out number in list");
         }
     }
 }

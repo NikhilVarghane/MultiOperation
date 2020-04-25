@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace MultiOperations
 {
     class Palindrome
     {
-        int n, temp, sum = 0, r;
-        public int palindromenumber(int n)
+        int temp, sum = 0, r;
+        public int palindromenumber(int number)
         {
-            temp = n;
-            while(n>0)
+            temp = number;
+            while(number>0)
             {
-                r = n % 10;
+                r = number % 10;
                 sum = (sum * 10) + r;
-                n = n / 10;
+                number = number / 10;
             }
             if(temp==sum)
             {

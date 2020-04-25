@@ -1,21 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace MultiOperations
 {
     class Student
     {
         public string name;
         private int age;
 
-        public void SetAge(int a)
+        public void SetAge(int age)
         {
-            if (a > 0 && a < 100)
+            if (age > 0 && age < 100)
             {
-                age = a;
+                this.age = age;
             }
             else
             {

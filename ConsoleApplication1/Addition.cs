@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApplication1
+﻿namespace MultiOperations
 {
     class Addition
     {
-        int firstNo, secondNo,sum;
-        public int AdditionOfTwoNumbers(int fno,int sno)
+        int firstNo, secondNo,result;
+        public int AdditionOfTwoNumbers(int firstNumber,int secondNumber)
         {
-            firstNo = fno;
-            secondNo = sno;
-            sum = firstNo + secondNo;
-            return sum;
+            firstNo = firstNumber;
+            secondNo = secondNumber;
+            result = firstNo + secondNo;
+            return result;
         }
     }
 }

@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApplication1
+﻿namespace MultiOperations
 {
     class Division
     {
-        int no1, no2, divide;
-        public int DivideTwoNumbers(int no1,int no2)
+        int divide;
+        public int DivideTwoNumbers(int firstNumber,int secondNumber)
         {
-            divide = no1 / no2;
+            divide = firstNumber / secondNumber;
             return divide;
         }
     }

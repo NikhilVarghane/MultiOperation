@@ -1,18 +1,18 @@
 ﻿using System;
 
-namespace ConsoleApplication1
+namespace MultiOperations
 {
     class Armstrong
     {
-        int n, sum = 0, temp, r;
-        public int arm(int num)
+        int number, sum = 0, temp, r;
+        public int arm(int number)
         {
-            temp = num;
-            while(num>0)
+            temp = number;
+            while(number>0)
             {
-                r = num % 10;
+                r = number % 10;
                 sum = sum + (r * r * r);
-                num = num / 10;
+                number = number / 10;
             }
             if(temp==sum)
             {

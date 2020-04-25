@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,9 +46,15 @@
   <ItemGroup>
     <Compile Include="Addition.cs" />
     <Compile Include="Armstrong.cs" />
+    <Compile Include="ArrayOfInteger.cs" />
+    <Compile Include="ArrayOperation.cs" />
+    <Compile Include="AvailableNoOrNot.cs" />
+    <Compile Include="DispalyPattern.cs" />
     <Compile Include="Division.cs" />
     <Compile Include="Factorial.cs" />
-    <Compile Include="List.cs" />
+    <Compile Include="LargestNumber.cs" />
+    <Compile Include="FindMissingNumber.cs" />
+    <Compile Include="OperationsList.cs" />
     <Compile Include="ListOfString.cs" />
     <Compile Include="Multiplication.cs" />
     <Compile Include="Palindrome.cs" />
@@ -60,8 +67,8 @@
     <Compile Include="Substring.cs" />
     <Compile Include="Sum of digit.cs" />
     <Compile Include="Swap.cs" />
-    <Compile Include="SwapWithoutTemp.cs" />
-    <Compile Include="Tables.cs" />
+    <Compile Include="SwitchCase.cs" />
+    <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
